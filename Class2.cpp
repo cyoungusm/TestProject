@@ -6,6 +6,7 @@
 Class2::Class2()
   : m_nData(0)
 {
+  std::cout << "ClassX constructor" << std::endl;
 
 
 }
@@ -13,12 +14,14 @@ Class2::Class2()
 Class2::Class2(int i)
   : m_nData(i)
 {
+  std::cout << "ClassX constructor" << std::endl;
 
 
 }
 
 Class2::~Class2()
 {
+  std::cout << "ClassX destructor" << std::endl;
 
 }
 

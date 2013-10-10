@@ -17,6 +17,7 @@ int main()
 	{
 	  Class2* pc = new Class2(i);
 	  std::cout << pc->ToString() << std::endl;
+	  pc->DoWork();
 	  delete pc;
 	}
 

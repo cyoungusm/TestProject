@@ -35,6 +35,6 @@ std::string Class2::ToString()
 
 void Class2::DoWork()
 {
-
+  std::cout << "Class2 doing work!" << std::endl;
 
 }

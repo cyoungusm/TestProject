@@ -1,10 +1,13 @@
 #include <iostream>
+#include <string>
 #include "Class1.h"
 
 int main();
 
 int main()
 {
-  std::cout << "Hello!";
+  Class1 c1(5);
+  std::cout << "Hello!" << std::endl << std::endl;
+  std::cout << c1.ToString() << std::endl << std::endl;
   return 0;
 }

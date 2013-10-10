@@ -25,7 +25,7 @@ Class2::~Class2()
 std::string Class2::ToString()
 {
   std::stringstream fmt;
-  fmt << "Class2(" << this << ")";
+  fmt << "Class2(" << this << ") m_nData(" << this->m_nData << ")";
 
   return fmt.str();
 }

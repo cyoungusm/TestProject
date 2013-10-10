@@ -7,6 +7,7 @@ Class1::Class1()
   : m_nData(0)
 {
 
+  std::cout << "Class1 constructor" << std::endl;
 
 }
 
@@ -14,11 +15,13 @@ Class1::Class1(int i)
   : m_nData(i)
 {
 
+  std::cout << "Class1 constructor" << std::endl;
 
 }
 
 Class1::~Class1()
 {
+  std::cout << "Class1 destructor" << std::endl;
 
 }
 

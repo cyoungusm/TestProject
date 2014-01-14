@@ -1,4 +1,0 @@
-TestProject
-===========
-
-A test project.
